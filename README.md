@@ -4,13 +4,15 @@
   ![](./Assets/demo.gif) 
   ## Table of Contents
   - [Installation](Installation)
-  - [Usage](#Usage)
-  - [License](#License)
+  - [Usage](Usage)
+  - [License](License)
   ## Installation
   ```git clone git@github.com:TroySargent/README-generator.git```
   ## Usage
-  ```npm install```
-  ```node index.js```
+  ```
+  npm install
+  node index.js
+  ```
   ## License
   This project is licensed under the MIT license.
   ### [Check out my other projects](https://github.com/TroySargent)
