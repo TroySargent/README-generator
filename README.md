@@ -13,6 +13,7 @@
   npm install
   node index.js
   ```
+  [See the example template to see how the output looks](Example_README.md)
   ## License
   This project is licensed under the MIT license.
   ### [Check out my other projects](https://github.com/TroySargent)
