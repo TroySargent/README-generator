@@ -2,8 +2,8 @@
 function generateMarkdown(answers) {
   console.log(answers)
   return `# ${answers.title} ![License](https://img.shields.io/badge/license-${answers.license}-success) 
-  ${answers.description}&nbsp;
-  [Check out my Github](https://github.com/${answers.username})
+  ${answers.description}
+  ### [Check out my Github](https://github.com/${answers.username})
   ## Table of Contents
   - [Installation](Installation)
   - [Usage](#Usage)
