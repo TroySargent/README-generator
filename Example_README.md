@@ -2,7 +2,7 @@
   Example Description
   ### [Check out my Github](https://github.com/Example)
   ## Table of Contents
-  - [Installation](Installation)
+  - [Installation](#Installation)
   - [Usage](#Usage)
   - [License](#License)
   - [Contributing](#Contributing)
