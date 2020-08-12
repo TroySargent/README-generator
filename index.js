@@ -24,8 +24,9 @@ let questions = [{
         name: "usage",
     },
     {
-        type: "input",
+        type: "list",
         message: "Which license does this project use?",
+        choices: ["Apache", "GNU General Public v3.0", "MIT", "BSD 2", "BSD 3", "Boost", "Creative Commons", "Eclipse", "Mozilla Public", "The Unlicense"],
         name: "license",
     },
     {
@@ -40,13 +41,13 @@ let questions = [{
     },
     {
         type: "input",
-        message: "Where can others reach you for questions?",
+        message: "Where can others reach you (email)?",
         name: "questions",
     },
     {
         type: "confirm",
         message: "Do you want to generate this README?",
-        name: "quit"
+        name: "quit",
     }
 ];
 
@@ -69,7 +70,7 @@ function init() {
         .then(answers => {
 
             if (answers.quit === true) {
-                return writeToFile("README.md", generateMarkdown(answers));
+                return writeToFile("READMEtest.md", generateMarkdown(answers));
             };
             init(); //recursively loop through questions
         })
