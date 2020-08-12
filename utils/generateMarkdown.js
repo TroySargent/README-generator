@@ -5,7 +5,7 @@ function generateMarkdown(answers) {
   ${answers.description}
   ### [Check out my Github](https://github.com/${answers.username})
   ## Table of Contents
-  - [Installation](Installation)
+  - [Installation](#Installation)
   - [Usage](#Usage)
   - [License](#License)
   - [Contributing](#Contributing)
