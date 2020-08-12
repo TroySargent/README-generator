@@ -28,7 +28,13 @@ let questions = [{
 
 // function to write README file
 function writeToFile(fileName, data) {
-
+    fs.writeFile(fileName, data, (err) => {
+        if (err) {
+            throw err;
+        } else {
+            console.log("README generated!");
+        };
+    });
 };
 
 // function to initialize program
@@ -38,14 +44,14 @@ function init() {
         .then(answers => {
 
             if (answers.quit === true) {
-                
-            }
+                return writeToFile("README.md", generateMarkdown(answers));
+            };
             init(); //recursively loop through questions
         })
         .catch((err) => {
             if (err) {
                 throw err;
-            }
+            };
         });
 
 };
