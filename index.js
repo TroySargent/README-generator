@@ -15,6 +15,11 @@ let questions = [{
     },
     {
         type: "input",
+        message: "Enter your Github username",
+        name: "username",
+    },
+    {
+        type: "input",
         message: "How do you install this project?",
         name: "installation",
     },
