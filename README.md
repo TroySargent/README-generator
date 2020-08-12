@@ -3,9 +3,9 @@
   ## Demo
   ![](./Assets/demo.gif) 
   ## Table of Contents
-  - [Installation](Installation)
-  - [Usage](Usage)
-  - [License](License)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [License](#License)
   ## Installation
   ```git clone git@github.com:TroySargent/README-generator.git```
   ## Usage
