@@ -75,7 +75,7 @@ function init() {
         .then(answers => {
 
             if (answers.quit === true) {
-                return writeToFile("READMEtest.md", generateMarkdown(answers));
+                return writeToFile("README.md", generateMarkdown(answers));
             };
             init(); //recursively loop through questions
         })
